@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: sans-serif;
+    color: #333;
+}
+.ribbon {
+    width: 220px;
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, #f9f9f9 0%, #ffffff 100%);
+    border-right: 1px solid #e0e0e0;
+}
+main {
+    margin-left: 220px;
+    padding: 40px;
+    max-width: 960px;
+}
+h1, h2, h3 { color: #2c3e50; }
